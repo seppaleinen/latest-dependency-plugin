@@ -1,0 +1,1 @@
+# latest-dependency-plugin
