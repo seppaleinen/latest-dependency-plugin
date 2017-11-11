@@ -1,6 +1,12 @@
 # latest-dependency-plugin
 
 
-```bash
-curl http://search.maven.org/solrsearch/select?q=g:com.google.inject+AND+a:guice&rows=20&wt=json' -H 'Accept: application/json;charset=UTF-8
-```
+### Todo
+
+* Generate java classes from maven xsd
+* Parse pom-file into maven java classes
+* Fetch data from above rest interface
+* Log and be happy
+* Implement maven-invoker-plugin for testing
+  * [maven-invoker-plugin examples](http://maven.apache.org/plugins/maven-invoker-plugin/examples/fast-use.html)
+
