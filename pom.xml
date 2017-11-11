@@ -16,7 +16,6 @@
     </properties>
 
     <modules>
-        <module>integration-test</module>
         <module>latest-dependency-plugin</module>
     </modules>
 </project>
