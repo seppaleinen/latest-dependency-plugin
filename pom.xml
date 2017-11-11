@@ -4,17 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>se.david</groupId>
-    <artifactId>latest-dependency-plugin</artifactId>
+    <artifactId>latest-dependency-plugin-root</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <artifactFinalName>${project.artifactId}</artifactFinalName>
     </properties>
 
-    <build>
-        <finalName>${artifactFinalName}</finalName>
-    </build>
+    <modules>
+        <module>integration-test</module>
+        <module>latest-dependency-plugin</module>
+    </modules>
 </project>
