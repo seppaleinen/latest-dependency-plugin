@@ -42,6 +42,9 @@ public class BestReader {
 
     private Dependency getDependency(Model model, Dependency dependency) {
         if(dependency.getVersion().contains("${project.parent.version}")) {
+            dependency.setVersion(model.getParent().getVersion());
+        }
+        else if(dependency.getVersion().contains("${project.version}")) {
             dependency.setVersion(model.getVersion());
         }
 
