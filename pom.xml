@@ -126,10 +126,10 @@
                         </configuration>
                         <executions>
                             <execution>
-                                <phase>verify</phase>
+                                <phase>install</phase>
                                 <goals>
                                     <goal>prepare</goal>
-                                    <!--<goal>update-versions</goal>-->
+                                    <goal>update-versions</goal>
                                     <goal>perform</goal>
                                 </goals>
                             </execution>
