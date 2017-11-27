@@ -128,6 +128,7 @@
                             <execution>
                                 <phase>install</phase>
                                 <goals>
+                                    <goal>clean</goal>
                                     <goal>prepare</goal>
                                     <goal>update-versions</goal>
                                     <goal>perform</goal>
