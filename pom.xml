@@ -4,7 +4,7 @@
 
     <groupId>se.david</groupId>
     <artifactId>latest-dependency-plugin</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <properties>
@@ -130,7 +130,6 @@
                                 <goals>
                                     <goal>clean</goal>
                                     <goal>prepare</goal>
-                                    <goal>update-versions</goal>
                                     <goal>perform</goal>
                                 </goals>
                             </execution>
