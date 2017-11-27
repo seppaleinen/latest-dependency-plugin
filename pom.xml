@@ -119,7 +119,7 @@
                         <configuration>
                             <releaseProfiles>release</releaseProfiles>
                             <pushChanges>true</pushChanges>
-                            <scmCommentPrefix>[skip ci] [maven-release-plugin] ${nextVersion}</scmCommentPrefix>
+                            <scmCommentPrefix>[skip ci] [maven-release-plugin] </scmCommentPrefix>
                             <tag>${nextVersion}</tag>
                             <developmentVersion>${nextVersion}-SNAPSHOT</developmentVersion>
                             <releaseVersion>${nextVersion}</releaseVersion>
@@ -145,5 +145,6 @@
         <url>https://github.com/seppaleinen/latest-dependency-plugin</url>
         <connection>scm:git:https://github.com/seppaleinen/latest-dependency-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/seppaleinen/latest-dependency-plugin.git</developerConnection>
+        <tag>0.0.2</tag>
     </scm>
 </project>
