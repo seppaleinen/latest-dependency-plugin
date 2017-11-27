@@ -4,7 +4,7 @@
 
     <groupId>se.david</groupId>
     <artifactId>latest-dependency-plugin</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>maven-plugin</packaging>
 
     <properties>
@@ -145,6 +145,6 @@
         <url>https://github.com/seppaleinen/latest-dependency-plugin</url>
         <connection>scm:git:https://github.com/seppaleinen/latest-dependency-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/seppaleinen/latest-dependency-plugin.git</developerConnection>
-        <tag>0.0.1</tag>
+        <tag>0.0.2</tag>
     </scm>
 </project>
